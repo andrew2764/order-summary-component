@@ -27,6 +27,7 @@ img {
   width: 90%;
   border-radius: 32px;
   text-align: center;
+  max-width: 450px;
 }
 
 .content {
