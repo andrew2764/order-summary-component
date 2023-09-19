@@ -7,6 +7,26 @@
 body {
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero--image {
+  border-radius: 32px 32px 0 0;
+}
+
+.container {
+  background-color: white;
+  width: 90%;
+  border-radius: 32px;
+  text-align: center;
 }
 
 .title {
@@ -45,6 +65,10 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
