@@ -6,6 +6,40 @@
 
 body {
   margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.title {
+  font-size: 1.375rem;
+  font-weight: 900;
+  color: #1f2e55;
+}
+
+.description {
+  font-size: 0.9375rem;
+  color: #717fa6;
+}
+
+.plan-name {
+  font-weight: 900;
+  font-size: 0.875rem;
+  color: #1f2e55;
+}
+
+.plan-price {
+  color: #717fa6;
+  font-size: 0.875rem;
+}
+
+.change-link {
+  color: #382ae1;
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.button {
+  font-size: 0.9375rem;
+  font-weight: 900;
 }
 
 .attribution {
